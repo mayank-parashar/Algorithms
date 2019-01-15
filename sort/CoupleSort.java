@@ -1,3 +1,15 @@
+//Input - n --> Integer Variable
+//	  First-->Integer array of size n (independent)
+// 	  Second-->Integer array of size n (dependent on First array)
+
+//this class will sort array first and on the basis of First array Index it will rearrange element of second array
+
+// Example 	Input  		First {8,2,4,6,9,5,1,3,7}
+// 	   	 		Second {1,2,3,4,5,6,7,8,9} 
+
+//	   	Output 		First {1,2,3,4,5,6,7,8,9}
+//		 		Second {7,2,8,3,6,4,9,1,5}
+
 public class Couple_sort {
 public static void main(String args[])
 {
